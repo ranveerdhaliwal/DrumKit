@@ -38,6 +38,10 @@ export const SoundBox = ({ sound, letter }: Props) => {
   }, [letter]);
 
   return (
-    <audio ref={audioRef} data-key={letter} src={`sounds/${sound}.wav`}></audio>
+    <audio
+      ref={audioRef}
+      data-key={letter}
+      src={`/sounds/${sound}.wav`}
+    ></audio>
   );
 };
