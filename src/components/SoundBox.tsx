@@ -2,7 +2,7 @@ import * as React from "react";
 import { useRef, useEffect } from "react";
 import keyboardJS from "keyboardjs";
 
-import { SoundTypes } from "/sandbox/src/types";
+import { SoundTypes } from "./../types";
 
 interface Props {
   sound: SoundTypes;
