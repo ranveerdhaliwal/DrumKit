@@ -1,35 +1,30 @@
 {
   "name": "react-typescript",
   "version": "1.0.0",
-  "description": "React and TypeScript example starter project",
-  "keywords": [
-    "typescript",
-    "react",
-    "starter"
-  ],
+  "description": "DrumKit in React and TypeScript",
+  "homepage": "https://ranveerdhaliwal.github.io/DrumKit/",
+  "keywords": ["typescript", "react"],
   "main": "src/index.tsx",
   "dependencies": {
-    "@types/keyboardjs": "2.5.0",
     "keyboardjs": "2.6.4",
     "react": "17.0.0",
     "react-dom": "17.0.0",
     "react-scripts": "3.3.0"
   },
   "devDependencies": {
+    "@types/keyboardjs": "2.5.0",
     "@types/react": "16.9.19",
     "@types/react-dom": "16.9.5",
-    "typescript": "3.7.5"
+    "typescript": "3.7.5",
+    "gh-pages": "3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
