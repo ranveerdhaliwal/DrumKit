@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/DrumKit/static/css/main.07060c22.chunk.css",
+    "main.js": "/DrumKit/static/js/main.8e8e39ca.chunk.js",
+    "main.js.map": "/DrumKit/static/js/main.8e8e39ca.chunk.js.map",
+    "runtime-main.js": "/DrumKit/static/js/runtime-main.90ccb5cf.js",
+    "runtime-main.js.map": "/DrumKit/static/js/runtime-main.90ccb5cf.js.map",
+    "static/js/2.df9e615e.chunk.js": "/DrumKit/static/js/2.df9e615e.chunk.js",
+    "static/js/2.df9e615e.chunk.js.map": "/DrumKit/static/js/2.df9e615e.chunk.js.map",
+    "index.html": "/DrumKit/index.html",
+    "precache-manifest.c4c6f813267d496255fa818b8c30dce2.js": "/DrumKit/precache-manifest.c4c6f813267d496255fa818b8c30dce2.js",
+    "service-worker.js": "/DrumKit/service-worker.js",
+    "static/css/main.07060c22.chunk.css.map": "/DrumKit/static/css/main.07060c22.chunk.css.map",
+    "static/js/2.df9e615e.chunk.js.LICENSE": "/DrumKit/static/js/2.df9e615e.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90ccb5cf.js",
+    "static/js/2.df9e615e.chunk.js",
+    "static/css/main.07060c22.chunk.css",
+    "static/js/main.8e8e39ca.chunk.js"
+  ]
+}
