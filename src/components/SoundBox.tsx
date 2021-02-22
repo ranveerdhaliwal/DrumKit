@@ -20,7 +20,7 @@ export const SoundBox = ({ sound, letter }: Props) => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
-    function playSound(e) {
+    function playSound(e: any) {
       if (audioRef.current !== null) {
         const audio: HTMLAudioElement = audioRef.current;
         console.log(audio);
